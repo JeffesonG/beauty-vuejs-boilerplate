@@ -1,5 +1,5 @@
-FROM node:latest
+FROM node:12.22.5
 WORKDIR /app
-EXPOSE 3000
+EXPOSE 8080
 COPY . .
 RUN npm install
