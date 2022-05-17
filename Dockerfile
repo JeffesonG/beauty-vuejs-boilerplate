@@ -3,3 +3,4 @@ WORKDIR /app
 EXPOSE 8080
 COPY . .
 RUN npm install
+ENTRYPOINT [ "npm","run","serve" ]
